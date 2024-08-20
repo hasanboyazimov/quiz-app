@@ -8,7 +8,7 @@ function MenuLinks() {
     isPending,
     error,
   } = useFetch(
-    "https://json-api.uz/api/project/front-quiz-app/quizzes"
+    "https://json-api.uz/api/project/front-quiz-app/quizzes/"
   );
   return (
     <div>
